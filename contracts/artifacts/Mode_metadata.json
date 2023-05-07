@@ -38,6 +38,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "value",
 				"outputs": [
 					{
@@ -78,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/4_Mode.sol": {
-			"keccak256": "0x0620a3c6f05a76d6e46cb0754c78a4172dff62a72cd97233daae4517a7930405",
+			"keccak256": "0x21f6ed618e26510b2ce0d85062b0d01a7675095d96e269e4a5a4474959837d4c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f82f6ac33c70975de7ad1c7ed0fe547d94a24f01799fe6c057ec2f380ac66a3e",
-				"dweb:/ipfs/QmctFTTE8PKs1bjU2zT9NhcpEQZcMDLKtqkRRm7Ff3t14z"
+				"bzz-raw://b6bef4c7150dfbc8cbf6e9da109e8923a86a71bf60a763f4db90c9f520afd76f",
+				"dweb:/ipfs/QmbCSsQEYKpACtqKitqZ2hhHuoY1ciY6inzxK94VB9RefY"
 			]
 		}
 	},
