@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "int256",
@@ -16,6 +21,19 @@
 				"name": "Change",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lifeline",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -60,11 +78,11 @@
 	},
 	"sources": {
 		"contracts/4_Mode.sol": {
-			"keccak256": "0x5381e26f7bfbb602bb0049475b25fc018d1e83baed26b6c7bb22ebe5d5acc0ea",
+			"keccak256": "0x0620a3c6f05a76d6e46cb0754c78a4172dff62a72cd97233daae4517a7930405",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://41cca238dc8378c8e73d9f3ad0bbe32ed240163da3c5348153e6596215341f6f",
-				"dweb:/ipfs/Qme1tFjdUMsRi6EPejapEv9nR1cf9wK7d8ms2QQ6ZNtXrq"
+				"bzz-raw://f82f6ac33c70975de7ad1c7ed0fe547d94a24f01799fe6c057ec2f380ac66a3e",
+				"dweb:/ipfs/QmctFTTE8PKs1bjU2zT9NhcpEQZcMDLKtqkRRm7Ff3t14z"
 			]
 		}
 	},
