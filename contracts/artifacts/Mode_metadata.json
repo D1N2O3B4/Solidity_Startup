@@ -91,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/4_Mode.sol": {
-			"keccak256": "0x21f6ed618e26510b2ce0d85062b0d01a7675095d96e269e4a5a4474959837d4c",
+			"keccak256": "0x0d08c54e4d12e7be24272c1b2edd1755a007df79e6eeade3a73c4aafbe7e1dbd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b6bef4c7150dfbc8cbf6e9da109e8923a86a71bf60a763f4db90c9f520afd76f",
-				"dweb:/ipfs/QmbCSsQEYKpACtqKitqZ2hhHuoY1ciY6inzxK94VB9RefY"
+				"bzz-raw://893ad5b377a2601afed2d113212357288cbffdf973673fd2c1841f6cafc37713",
+				"dweb:/ipfs/QmcWGEZbbxYCFxRJNaUwSziFrV3RmoAwoJ8P9TbjLu6s22"
 			]
 		}
 	},
