@@ -38,7 +38,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "state",
+				"name": "star",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -91,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/4_Mode.sol": {
-			"keccak256": "0x0d08c54e4d12e7be24272c1b2edd1755a007df79e6eeade3a73c4aafbe7e1dbd",
+			"keccak256": "0x4204d1e52ea85bb0a00e73cc2772ed09e4f919ae2be55e33c5e966b4460360e2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://893ad5b377a2601afed2d113212357288cbffdf973673fd2c1841f6cafc37713",
-				"dweb:/ipfs/QmcWGEZbbxYCFxRJNaUwSziFrV3RmoAwoJ8P9TbjLu6s22"
+				"bzz-raw://c1051a15c27b8b9cd7a0703685781e9332b3dd9186bba9c58f725ea2685be28d",
+				"dweb:/ipfs/Qma3xrrE2AX8nv3ERQD85abTtPyJkQxUJvVTvgth68CHrU"
 			]
 		}
 	},
