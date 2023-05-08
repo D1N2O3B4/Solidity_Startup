@@ -17,12 +17,14 @@ contract Mode{
         value = _value;
     }
     //A return function in Solidity
-    function state()public pure returns(int) {
+    function star()public pure returns(int) {
         int i = 5;
         i =i * 4;
         string  memory pet_name = "Tuamie";
         return  i;
     } 
+
+   
 
     
 }
