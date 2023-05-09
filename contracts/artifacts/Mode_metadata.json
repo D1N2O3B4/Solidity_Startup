@@ -6,7 +6,18 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "lifeline",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "user",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -21,6 +32,32 @@
 				"name": "Change",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_user",
+						"type": "string"
+					}
+				],
+				"name": "changeuser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getvalue",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -47,6 +84,19 @@
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "user",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -91,11 +141,11 @@
 	},
 	"sources": {
 		"contracts/4_Mode.sol": {
-			"keccak256": "0x4204d1e52ea85bb0a00e73cc2772ed09e4f919ae2be55e33c5e966b4460360e2",
+			"keccak256": "0x87be606a79fe21347a3828c275d0a9978389444ff6a276e856764052f54441d8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c1051a15c27b8b9cd7a0703685781e9332b3dd9186bba9c58f725ea2685be28d",
-				"dweb:/ipfs/Qma3xrrE2AX8nv3ERQD85abTtPyJkQxUJvVTvgth68CHrU"
+				"bzz-raw://7e82995739524f0782bfb42dc06fe2a5b0d991b032c5f12b225df4bfbd5c3db0",
+				"dweb:/ipfs/QmVeW4z4ka5DMDJou54qWWA3EdPEUJtJyPTH3vLmcYLXzP"
 			]
 		}
 	},
