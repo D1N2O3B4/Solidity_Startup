@@ -4,7 +4,7 @@ pragma solidity 0.8.0;
 contract Mode{
     //This is assigning a value to the variable after declaring it and cannot be declared again this way
     int public value=10;
-    string constant user = "David";
+    string  public  user = "David";
     int public lifeline;
 
     //Constructor automatically assigns a value to the variable during compilation
@@ -23,11 +23,14 @@ contract Mode{
         string  memory pet_name = "Tuamie";
         return  i;
     } 
-    //View is used when the fuction is readonly and doesn't alter the state 
+    //View  or Pure are used when the fuction is readonly and doesn't alter the storage 
     function getvalue()public view returns(int){
         return  value;
     }
- 
+    
+    function changeuser(string memory _user) public{
+        user = _user;
+    }
 
     
 }
