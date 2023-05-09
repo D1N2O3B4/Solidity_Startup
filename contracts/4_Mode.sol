@@ -8,9 +8,9 @@ contract Mode{
     int public lifeline;
 
     //Constructor automatically assigns a value to the variable during compilation
-    constructor(int lifeline,string memory user){
-        lifeline= 22;
-        user = "Bucky";
+    constructor(int _lifeline,string memory _user){
+        lifeline= _lifeline;
+        user =  _user;
     }
 
     //This is another way to change the value of variable {value} by using a function
