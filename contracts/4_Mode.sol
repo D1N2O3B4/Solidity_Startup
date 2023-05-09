@@ -23,8 +23,11 @@ contract Mode{
         string  memory pet_name = "Tuamie";
         return  i;
     } 
-
-   
+    //View is used when the fuction is readonly and doesn't alter the state 
+    function getvalue()public view returns(int){
+        return  value;
+    }
+ 
 
     
 }
