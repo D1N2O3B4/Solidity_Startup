@@ -111,6 +111,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "wallet",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -141,11 +154,11 @@
 	},
 	"sources": {
 		"contracts/4_Mode.sol": {
-			"keccak256": "0x852c9094e2fb584917bc3049c41c524d24b24c974cea12faff63bf2c55ae1aea",
+			"keccak256": "0xdf73799376a6f0ca80d47ca1e0d08203f95176a001c5913afc36016950682230",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a510ef9da73f5568c4d27c37745e682eb3cd52ee1f41da3dc70250b7870c9dfc",
-				"dweb:/ipfs/Qmccz8TNpYHvk6Z4WrQ7k2JLqRwBfd3dkBiZ1yZRvRsHnj"
+				"bzz-raw://25f6955b4ac100d4ead2fc1c9fa602acf7a9731c58e024873420d3f2d028c148",
+				"dweb:/ipfs/QmVzTUZAycjgfxBRxLt6DunEwaeK2Y3MS7Whf6VNrGBxmV"
 			]
 		}
 	},

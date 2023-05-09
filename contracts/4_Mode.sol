@@ -6,11 +6,13 @@ contract Mode{
     int public value=10;
     string  public  user = "David";
     int public lifeline;
+    address public  wallet;
 
     //Constructor automatically assigns a value to the variable during compilation
     constructor(int _lifeline,string memory _user){
         lifeline= _lifeline;
         user =  _user;
+        wallet = msg.sender;
     }
 
     //This is another way to change the value of variable {value} by using a function
