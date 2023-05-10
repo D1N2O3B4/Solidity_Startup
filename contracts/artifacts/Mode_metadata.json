@@ -35,6 +35,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "bool_value",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -154,11 +167,11 @@
 	},
 	"sources": {
 		"contracts/4_Mode.sol": {
-			"keccak256": "0x75ce556ebe3c7668ab0396bae6e0c8557630f88618efda9dfba3c41b10e1dc9f",
+			"keccak256": "0x3ea5de32ce26a851dcb8e8fcbf3da6c7b2d8c0b602ce0557530831776a38856a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://74597abaa9d78085d074c747c5cf8d0dce5ede9ad88b6b5d4df486e5d78e0a68",
-				"dweb:/ipfs/QmTBqPt4EGSRuCN8Wy2JocbYUfJCvxgmWKDrtcqxGb6hoe"
+				"bzz-raw://454baa4a69ff45b0175a5541f6102e05944ec7a8482845c39fabd9cf332c5a09",
+				"dweb:/ipfs/QmTJNY8C8rs3dEp5h1hUXMbehFB56Mr9t63krK3DkuYTtJ"
 			]
 		}
 	},

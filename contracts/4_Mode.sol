@@ -7,6 +7,7 @@ contract Mode{
     string  public  user = "David";
     int public lifeline;
     address immutable public wallet;
+    bool public  bool_value ;
 
     //Constructor automatically assigns a value to the variable during compilation
     constructor(int _lifeline,string memory _user){
