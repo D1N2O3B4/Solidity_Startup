@@ -6,7 +6,18 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_lifeline",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "_user",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -143,11 +154,11 @@
 	},
 	"sources": {
 		"contracts/4_Mode.sol": {
-			"keccak256": "0xa92a4106f9aca840f5feef6da426df1aea8d993a5399c3317c0e437ee2099898",
+			"keccak256": "0x75ce556ebe3c7668ab0396bae6e0c8557630f88618efda9dfba3c41b10e1dc9f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dc0036181dec9a8a1b966627b39b72c30343c7f8dfd23638c6b297bb6f72fc07",
-				"dweb:/ipfs/Qmabpv6Ax582gtrZSqtBhdFGi4WKVaaVZZ7o4gFojaWBrs"
+				"bzz-raw://74597abaa9d78085d074c747c5cf8d0dce5ede9ad88b6b5d4df486e5d78e0a68",
+				"dweb:/ipfs/QmTBqPt4EGSRuCN8Wy2JocbYUfJCvxgmWKDrtcqxGb6hoe"
 			]
 		}
 	},
