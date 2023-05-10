@@ -9,9 +9,9 @@ contract Mode{
     address public  wallet;
 
     //Constructor automatically assigns a value to the variable during compilation
-    constructor(int _lifeline,string memory _user){
-        lifeline= _lifeline;
-        user =  _user;
+    constructor(/**int _lifeline,string memory _user**/){
+        // lifeline= _lifeline;
+        // user =  _user;
         wallet = msg.sender;
     }
 
