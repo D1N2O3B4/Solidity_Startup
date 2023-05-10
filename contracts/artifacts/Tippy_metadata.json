@@ -1,61 +1,64 @@
 {
 	"compiler": {
-		"version": "0.5.0+commit.1d4f565a"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"constant": true,
 				"inputs": [],
-				"name": "sand",
-				"outputs": [
-					{
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "land",
 				"outputs": [
 					{
+						"internalType": "int8",
 						"name": "",
 						"type": "int8"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
+				"name": "sand",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts/Safe_Math_Bool.sol": "Tippy"
 		},
-		"evmVersion": "byzantium",
+		"evmVersion": "istanbul",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -64,9 +67,11 @@
 	},
 	"sources": {
 		"contracts/Safe_Math_Bool.sol": {
-			"keccak256": "0xdf81cc883beee18d7d5c581d1344976da7b4602006467ac2cc243aa6c5a24907",
+			"keccak256": "0x533c070a51a9092b6a98a17338ce4cd8deaf7ccab3d039347bf8f2ccb6036cb3",
+			"license": "MIT",
 			"urls": [
-				"bzzr://279c71b5aea824b5197c21105eb6f8203cf67ec57f2b420bb4dff18079fb838d"
+				"bzz-raw://595ff87eecba2986f65e876b7257e5d9ca6238a860faefe3afd15e3bd87374da",
+				"dweb:/ipfs/QmXQNapjSk1H1NJHvtxJa4ZeKQQ5WJjfx6z6LgqURpGUZW"
 			]
 		}
 	},
