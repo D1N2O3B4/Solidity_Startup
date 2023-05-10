@@ -1,64 +1,61 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.5.0+commit.1d4f565a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "land",
-				"outputs": [
-					{
-						"internalType": "int8",
-						"name": "",
-						"type": "int8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
+				"constant": true,
 				"inputs": [],
 				"name": "sand",
 				"outputs": [
 					{
-						"internalType": "uint8",
 						"name": "",
 						"type": "uint8"
 					}
 				],
+				"payable": false,
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "land",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts/Safe_Math_Bool.sol": "Tippy"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "byzantium",
 		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -67,11 +64,9 @@
 	},
 	"sources": {
 		"contracts/Safe_Math_Bool.sol": {
-			"keccak256": "0x59bf0d13d77bae08ac1e26f60f08c22362e8779d0baf060cc68e7ea3038ae148",
-			"license": "MIT",
+			"keccak256": "0xdf81cc883beee18d7d5c581d1344976da7b4602006467ac2cc243aa6c5a24907",
 			"urls": [
-				"bzz-raw://1c87d99e88c82337ec5b4d85d81474099e46656e68a97b49f88110c6dd472ea7",
-				"dweb:/ipfs/QmT8xySFR2VZ2H63JbjqBtTJLpJDzdCAHPAJW8CvLzD6UA"
+				"bzzr://279c71b5aea824b5197c21105eb6f8203cf67ec57f2b420bb4dff18079fb838d"
 			]
 		}
 	},
