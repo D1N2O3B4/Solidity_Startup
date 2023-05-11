@@ -16,10 +16,19 @@ contract Arrays{
         age[index] =  _value;
     }
 
+    function set_values(uint _value) public {
+        pool.push(_value);
+    }
+
     //View is used when we do not modify the blockchain
-    function array_lenght() public view returns(uint){
+    function array_static_lenght() public view returns(uint){
         return  grades.length;
     } 
+
+    function array_dynamic_lenght() public view returns(uint){
+        return  pool.length;
+    }
+
     function set_bytes() public {
         x = "a";
         y = "green";
