@@ -25,6 +25,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "array_lenght",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -44,6 +57,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "set_bytes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -59,6 +79,32 @@
 				"name": "set_index_value",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "y",
+				"outputs": [
+					{
+						"internalType": "bytes5",
+						"name": "",
+						"type": "bytes5"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -90,11 +136,11 @@
 	},
 	"sources": {
 		"contracts/Arrays.sol": {
-			"keccak256": "0xc712085c295f3e1d3655d39ae023f282c6d39911c94a23d960d9ea5927fa52f2",
+			"keccak256": "0xfe858cc3cc5d263a46758a9c10326d0021139c8e450b565a5690c446107b604a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://80d78457dbea49a5880d6d39d9ef0db63a2cf5944784d772b35e5cbe78ac40eb",
-				"dweb:/ipfs/QmTMzXxuMYHrqAxhSAn28tzajkxPQ71zmFfHp5w6cTrjdw"
+				"bzz-raw://09fcf9bb37f96cc91506e560474adf0c565d7033030d3d3226040380bb01d196",
+				"dweb:/ipfs/QmQ6vCbRBHAggfnwhUZDMN8dj51Ti2UkxAkhfqPxCRAZyw"
 			]
 		}
 	},
