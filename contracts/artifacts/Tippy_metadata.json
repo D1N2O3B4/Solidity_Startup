@@ -67,11 +67,11 @@
 	},
 	"sources": {
 		"contracts/Safe_Math_Bool.sol": {
-			"keccak256": "0x533c070a51a9092b6a98a17338ce4cd8deaf7ccab3d039347bf8f2ccb6036cb3",
+			"keccak256": "0x6b1888c80e9b40101b4a5e3ed84d09edcfa7f91b99b7cb54b2c0a20561e77478",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://595ff87eecba2986f65e876b7257e5d9ca6238a860faefe3afd15e3bd87374da",
-				"dweb:/ipfs/QmXQNapjSk1H1NJHvtxJa4ZeKQQ5WJjfx6z6LgqURpGUZW"
+				"bzz-raw://03d54c33efd3100658f7e366b0d71e82f82a56daa19812b29c0b24309ce43e25",
+				"dweb:/ipfs/QmU5A23xxS94RBjRHSLgYMYkJTM8Zeph2k95gbkK77Mckk"
 			]
 		}
 	},
