@@ -57,6 +57,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "pool",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "set_bytes",
 				"outputs": [],
@@ -136,11 +155,11 @@
 	},
 	"sources": {
 		"contracts/Arrays.sol": {
-			"keccak256": "0x208474613221ebc03b2ecdfd66ce036c06eed5741792930b5688185895b416af",
+			"keccak256": "0xbfdf9a1d3135744bc09345a870bef4994ceefe1ee6204266512ebe1dee1f6bb1",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2e9eae159f495f18e94cd4a6dbfd4bfbd940d5dbccc9b5966f36173030a7fee1",
-				"dweb:/ipfs/QmXgURZsYQGyHcoTUHpAA2WpJ52De6WRBkTE45d7mBmS51"
+				"bzz-raw://8f80eae4a068b64c6640a52b4788f3260318bba8af6a0ec82a38b32b46d7e715",
+				"dweb:/ipfs/QmdwsTTPbMcegX1a861B8Yk7SyWbNVXPr7ykmNUkozN3AB"
 			]
 		}
 	},
