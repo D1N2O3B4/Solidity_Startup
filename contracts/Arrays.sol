@@ -34,5 +34,15 @@ contract Arrays{
         y = "green";
     }
 
+    //There are 3 types of arrays in soldity, static,dynamic and memory arrays
+    //below is an example of a memory array
+
+    function sto() public {
+        uint[] memory p1 = new uint[](3);
+        p1[0] = 34;
+        p1[1] = 456;
+        p1[2] = 1000;
+        pool =  p1;   
+    }
 }
 

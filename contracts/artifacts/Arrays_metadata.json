@@ -128,6 +128,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "sto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "x",
 				"outputs": [
 					{
@@ -181,11 +188,11 @@
 	},
 	"sources": {
 		"contracts/Arrays.sol": {
-			"keccak256": "0xb579efd9aed79ddca5e9699942446e6b655b6c3e4ae9367d39b145de1b2b3306",
+			"keccak256": "0x5e193efbd652dbbfad93bcd83d1b8e1b8ef5853af230acbbb9f8a997a8a6ec67",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ab0d17b0ebf5e70243ba931d332251da40b9e9a09c25cad13dfa95a6bab5843d",
-				"dweb:/ipfs/QmaziaN8pnZGgS3ERyDGzB2i3Dto9tGX9KoJjESPjmts1Y"
+				"bzz-raw://83a7242f70f8a9c67aacb5b15794e0d30f731ba1f16a482580f6acb945aae649",
+				"dweb:/ipfs/QmeFK6DaGRxPxpGqGEXRDMtc2R7W1oVmUaMXMNa8wAYGqj"
 			]
 		}
 	},
