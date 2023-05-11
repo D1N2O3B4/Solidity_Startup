@@ -2,8 +2,9 @@
 pragma solidity ^0.8.0;  
 
 contract Arrays{
-    uint[5] public grades = [3,56,45];   
-    uint[3] public age;
+    uint[5] public grades = [3,56,45];  
+    //age is a dynamic array 
+    uint[] public age;
     bytes1 public  x;
     bytes5 public  y;
 
