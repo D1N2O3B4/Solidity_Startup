@@ -12,6 +12,9 @@ contract School{
     //Making a struct obj
     Student public pupil_1;
 
+    enum State{Open, Closed, Not_Known}
+    State public School_state = State.Open;
+
     constructor(uint _id,string memory _name,uint _age){
         pupil_1.id = _id;
         pupil_1.name = _name;
@@ -21,16 +24,19 @@ contract School{
     }
 
     function change_struct_values(uint _id, string memory _name,uint _age, address _location) public {
-        Student  memory pupil_edit = Student({
-            id: _id,
-            name: _name,
-            age: _age,
-            location: _location 
-        }
-        );
-    
-    pupil_1 = pupil_edit;
+        if (School_state == State.Open){
 
-    } 
+            Student  memory pupil_edit = Student({
+                id: _id,
+                name: _name,
+                age: _age,
+                location: _location 
+            }
+            );
+        
+        pupil_1 = pupil_edit;
+
+        } 
+    }
 
 }
