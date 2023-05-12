@@ -27,6 +27,19 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "School_state",
+				"outputs": [
+					{
+						"internalType": "enum School.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -111,11 +124,11 @@
 	},
 	"sources": {
 		"contracts/struct_enums.sol": {
-			"keccak256": "0x21499e699d0597cfde3295cec40f30a9c15c7258045721902fa641b9d908b107",
+			"keccak256": "0x2bb3cf6af8684298ea5a5d93864bf2c3ea4f0edc365847eaa7e0ea1c7fb75864",
 			"license": "GPL - 3.0",
 			"urls": [
-				"bzz-raw://a33623677e86a19800dd42cd74d6690c557ae54ccadfa0864479a6554329df25",
-				"dweb:/ipfs/QmaHeSs1QiVuQJKhFQtMGDPo2BHQu6VEVPcn5wNijsvjtJ"
+				"bzz-raw://1f81a9a5456dc5ff6653d96437e147125a0ca4c5f07231a83078dc05e1c92a2c",
+				"dweb:/ipfs/QmWfF7kC6hdA5i3n6YENDGsoPQZx3UAcWYGmGjvh7ny2JS"
 			]
 		}
 	},
