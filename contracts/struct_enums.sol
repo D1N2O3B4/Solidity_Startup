@@ -20,4 +20,17 @@ contract School{
 
     }
 
+    function change_struct_values(uint _id, string memory _name,uint _age, address _location) public {
+        Student  memory pupil_edit = Student({
+            id: _id,
+            name: _name,
+            age: _age,
+            location: _location 
+        }
+        );
+    
+    pupil_1 = pupil_edit;
+
+    } 
+
 }

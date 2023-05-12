@@ -27,6 +27,34 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_location",
+						"type": "address"
+					}
+				],
+				"name": "change_struct_values",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "pupil_1",
 				"outputs": [
@@ -83,11 +111,11 @@
 	},
 	"sources": {
 		"contracts/struct_enums.sol": {
-			"keccak256": "0x76b9ea51134d135e6c357bc4958f4a139652fd24cb431e278fc6a4e350d6e230",
+			"keccak256": "0x21499e699d0597cfde3295cec40f30a9c15c7258045721902fa641b9d908b107",
 			"license": "GPL - 3.0",
 			"urls": [
-				"bzz-raw://7c147937daf6c916800796163c6063b3b68543c098bd784911c8b1d1044bf6bb",
-				"dweb:/ipfs/QmThR5Rk4CwQxiWZcsVkz44NdqLk3X8hbcMMqZFkKKmks2"
+				"bzz-raw://a33623677e86a19800dd42cd74d6690c557ae54ccadfa0864479a6554329df25",
+				"dweb:/ipfs/QmaHeSs1QiVuQJKhFQtMGDPo2BHQu6VEVPcn5wNijsvjtJ"
 			]
 		}
 	},
