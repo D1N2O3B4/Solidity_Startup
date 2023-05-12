@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/struct_enums.sol": "Structy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/struct_enums.sol": {
+			"keccak256": "0x42fbdbd5d74f6f47cf6e2bc648aa21254fac979ef0f8af4db83b0755a2a42279",
+			"license": "GPL - 3.0",
+			"urls": [
+				"bzz-raw://fb295c3657697095c9aeb46d7e08862058434f94109b6c11c3ee01c02aa17f22",
+				"dweb:/ipfs/Qmcc5wYjXDbSVEVCxvEkBeFQwg6osEoCfAhTTQisodZDvQ"
+			]
+		}
+	},
+	"version": 1
+}
