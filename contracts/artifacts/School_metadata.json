@@ -124,11 +124,11 @@
 	},
 	"sources": {
 		"contracts/struct_enums.sol": {
-			"keccak256": "0x2bb3cf6af8684298ea5a5d93864bf2c3ea4f0edc365847eaa7e0ea1c7fb75864",
+			"keccak256": "0xf7e6bd5c4075403ee32b286749a3d5ef356bdb85e842d75c67e31c8bae56ce4c",
 			"license": "GPL - 3.0",
 			"urls": [
-				"bzz-raw://1f81a9a5456dc5ff6653d96437e147125a0ca4c5f07231a83078dc05e1c92a2c",
-				"dweb:/ipfs/QmWfF7kC6hdA5i3n6YENDGsoPQZx3UAcWYGmGjvh7ny2JS"
+				"bzz-raw://77fcfd4a70cbc240210074de4fcc64126a1625b8cf14840ed88aad891dbdca8a",
+				"dweb:/ipfs/QmbGPvJb1mjbGBL6G7aabiGLA5Eg5ffBsksKEYCtB9W6KS"
 			]
 		}
 	},
