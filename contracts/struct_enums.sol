@@ -9,7 +9,7 @@ struct Student{
 }
 
 contract School{
-    //Making a struct obj
+    //Making a struct object
     Student public pupil_1;
 
     enum State{Open, Closed, Not_Known}
