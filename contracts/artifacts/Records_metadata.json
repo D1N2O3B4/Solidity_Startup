@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "Donor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "make_payment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/donations.sol": "Records"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/donations.sol": {
+			"keccak256": "0x37bcc93be46f01db8842f38baf2f22b95b6e877634464732d56af10d21c6c083",
+			"license": "GPL - 3.0",
+			"urls": [
+				"bzz-raw://a46f85976c938081600b57cd89a8226edd3391ac4e3f33c6f2e378228ebda300",
+				"dweb:/ipfs/QmTC4AEBTZG9Fzi6nnc8ySqu8QruDvx526T7LNDKiC71rZ"
+			]
+		}
+	},
+	"version": 1
+}
