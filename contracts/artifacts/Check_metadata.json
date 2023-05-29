@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -54,7 +54,7 @@
 		"compilationTarget": {
 			"contracts/mem_store.sol": "Check"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

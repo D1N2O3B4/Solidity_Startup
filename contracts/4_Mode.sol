@@ -3,7 +3,7 @@ pragma solidity 0.8.0;
 
 contract Mode{
     //This is assigning a value to the variable after declaring it and cannot be declared again this way
-    int public value=10;
+    int public value = 10;
     string  public  user = "David";
     int public lifeline;
     address immutable public wallet;
